@@ -231,10 +231,16 @@ body {
                 }
             }
             .slick-prev {
+                &:before {
+                    content: url('/images/back.png');
+                }
                 left: -75px;
             }
             .slick-next {
                 right: -75px;
+                &:before {
+                    content: url('/images/next.png');
+                }
             }
             .slick-dots {
                 display: none !important;
